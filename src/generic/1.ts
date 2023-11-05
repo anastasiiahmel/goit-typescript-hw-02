@@ -3,7 +3,9 @@
   Доповніть цю функцію, використовуючи generics, щоб вона повертала правильний тип.
 */
 
-function getPromise () {
+type Type =[ string | ];
+
+function getPromise  () {
   return new Promise((resolve) => {
     resolve(['Text', 50]);
   });
@@ -14,4 +16,4 @@ getPromise()
   console.log(data);
 });
 
-export {};
+export {}
